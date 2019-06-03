@@ -95,9 +95,9 @@ File name should start with test_example.py or end with example_test.py
 
 > One key feature of all unit test frameworks is providing the ability to execute setup code before and after the tests. Pytest provides this capability with both XUnit
 style setup/teardown functions and with Pytest fixtures.
-...The XUnit style setup and teardown functions allow you to execute code before and after: Test modules <click>, Test Functions <click>, Test Classes <click>, and Test
+... The XUnit style setup and teardown functions allow you to execute code before and after: Test modules <click>, Test Functions <click>, Test Classes <click>, and Test
 Methods in Test Classes.
-...Using these setup and teardown functions can help reduce code duplication by letting you specify setup and teardown code once at each of the different levels as
+... Using these setup and teardown functions can help reduce code duplication by letting you specify setup and teardown code once at each of the different levels as
 necessary rather than repeating the code in each individual unit test. 
 
 ``` python3 -m pytest -v -s test_Xunit.py```
