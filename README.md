@@ -20,9 +20,7 @@ __Red__ > __Green__ > __Refactor__
 ###### Uncle BOB's 3 Laws of TDD.
 
 * You may not rote any producton doce until you have written a failing unit test. 
-
 * You may not write more of a unit test than is sufficient to fail and not compiling is failing.
-
 * You may not write more production code than is sufficient to pass the current failing unit test.
 
 ---
@@ -39,11 +37,8 @@ Why do we need unit test?
 ##### Levels of Testing
 
 * Unit Testing - Testing at the function level
-
 * Component Testing - Testing is at the library compiled binary level
-
 * System Testing - Tests the externam interfaces of a system which is a collection of sub-systems.
-
 * Perfomance Testing - Testing done at sub-system and system levels to verify timing and resource usages are acceptable.
 
 
