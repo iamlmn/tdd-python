@@ -1,6 +1,6 @@
 # Test Driven Development in Python
 
-What is TDD?
+`What is TDD?`
 
 > A process where the developer takes personal responsibiltiy for the quality of their code.
 > Unit tests are written before the productin code.
@@ -14,7 +14,7 @@ What is TDD?
 
 #### Workflo
 
-RED -> GREEN -> Refactor
+__Red__ > __Green__ > __Refactor__
 
 
 ###### Uncle BOB's 3 Laws of TDD.
@@ -25,6 +25,7 @@ RED -> GREEN -> Refactor
 
 * You may not write more production code than is sufficient to pass the current failing unit test.
 
+---
 
 ##### Unit testing?
 
@@ -63,17 +64,21 @@ Virtual Envs are directoris containing links ot the system's python install and 
 The PATH env variable is updated to point to the virtual env when that ve is activated.
 
 * ``` pip install virtualenv ```
-* Create a venv ->virtualenv<Name>
+* Create a venv ->  ``` virtualenv<Name ```
 * Activate the venv by sorucing the activate script in bin -> ``` soruce./<Name>/bin/activate ```
 * Deactivate -> ``` deactivate ```
 * Delete venv by deleting the directory.
 
 or venv in python3 (comes by default in python>3) except for creating venv -> ``` python3 -m venv <Name> ```
 
+***
 
 ### What is PyTest?
 
-* PyTest is a python unit test frameork.* It provides ability to provide Test,TestModules,Test Fixtures.* Uses built in assert statement.* Command line paramets to view which tests are executed and in what order!
+* PyTest is a python unit test frameork.
+* It provides ability to provide Test,TestModules,Test Fixtures.
+* Uses built in assert statement.
+* Command line paramets to view which tests are executed and in what order!
 
 ##### Tests
 > Tests are python function with "test" at the begining of the function name.
@@ -107,6 +112,7 @@ necessary rather than repeating the code in each individual unit test.
 * Induvidual test cases can specify which fixtures they want executed.
 * The autouse parameter can be set to true to automatically execute a fixture before each tests.
 
+---
 
 ## Pytest & cmd 
 > By default Pytest runs all tests that it finds in the current working directory and sub-directory using the naming conventions for automatic test discovery.
@@ -125,7 +131,7 @@ you’re running 100’s or 1000’s of tests.
 - The —maxfail option specifies that PyTest should stop after N number of test failures.
 
 
-
+***
 
 ### Test Doubles
 
