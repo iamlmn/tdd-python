@@ -2,15 +2,15 @@
 
 What is TDD?
 
-A process where the developer takes personal responsibiltiy for the quality of their code.
-Unit tests are written before the productin code.
+> A process where the developer takes personal responsibiltiy for the quality of their code.
+> Unit tests are written before the productin code.
 
 #### Benefits?
 
-1 Gives confidence on your code.
-2 Gives you immediate feedback
-3 Documents what the code is doing.
-4 Drives good object oriented design.
+1. Gives confidence on your code.
+2. Gives you immediate feedback
+3. Documents what the code is doing.
+4. Drives good object oriented design.
 
 #### Workflo
 
@@ -62,13 +62,13 @@ Virtual envs solve the dependency issue by creating isolated python environments
 Virtual Envs are directoris containing links ot the system's python install and providing sub-directories for installing additional python packages in that particular VE.
 The PATH env variable is updated to point to the virtual env when that ve is activated.
 
-* pip install virtualenv
+* ``` pip install virtualenv ```
 * Create a venv ->virtualenv<Name>
-* Activate the venv by sorucing the activate script in bin -> soruce./<Name>/bin/activate
-* Deactivate -> "deactivate"
+* Activate the venv by sorucing the activate script in bin -> ``` soruce./<Name>/bin/activate ```
+* Deactivate -> ``` deactivate ```
 * Delete venv by deleting the directory.
 
-or venv in python3 (comes by default in python>3) except for creating venv -> * python3 -m venv <Name> *
+or venv in python3 (comes by default in python>3) except for creating venv -> ``` python3 -m venv <Name> ```
 
 
 ### What is PyTest?
@@ -93,14 +93,14 @@ File name should start with test_example.py or end with example_test.py
 
 ### XUnit setup and teardown.
 
-One key feature of all unit test frameworks is providing the ability to execute setup code before and after the tests. Pytest provides this capability with both XUnit
+> One key feature of all unit test frameworks is providing the ability to execute setup code before and after the tests. Pytest provides this capability with both XUnit
 style setup/teardown functions and with Pytest fixtures.
-- The XUnit style setup and teardown functions allow you to execute code before and after: Test modules <click>, Test Functions <click>, Test Classes <click>, and Test
+...The XUnit style setup and teardown functions allow you to execute code before and after: Test modules <click>, Test Functions <click>, Test Classes <click>, and Test
 Methods in Test Classes.
-- Using these setup and teardown functions can help reduce code duplication by letting you specify setup and teardown code once at each of the different levels as
+...Using these setup and teardown functions can help reduce code duplication by letting you specify setup and teardown code once at each of the different levels as
 necessary rather than repeating the code in each individual unit test. 
 
-Example : python3 -m pytest -v -s test_Xunit.py
+``` python3 -m pytest -v -s test_Xunit.py```
 
 
 ### TEST FIXTURES
@@ -112,7 +112,7 @@ Example : python3 -m pytest -v -s test_Xunit.py
 
 
 ## Pytest & cmd 
-By default Pytest runs all tests that it finds in the current working directory and sub-directory using the naming conventions for automatic test discovery.
+> By default Pytest runs all tests that it finds in the current working directory and sub-directory using the naming conventions for automatic test discovery.
 - There are several pytest command line arguments that can be specified to try and be more selective about which tests will be executed.
 - You can simply pass in the module name to execute only the unit tests in one particular module.
 - You can also simply pass in a directory path to have pytest run only the tests in that directory.
