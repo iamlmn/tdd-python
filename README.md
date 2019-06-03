@@ -73,18 +73,15 @@ or venv in python3 (comes by default in python>3) except for creating venv -> ``
 
 ### What is PyTest?
 
-* PyTest is a python unit test frameork.
-* It provides ability to provide Test,TestModules,Test Fixtures.
-* Uses built in assert statement.
-* Command line paramets to view which tests are executed and in what order!
+* PyTest is a python unit test frameork.* It provides ability to provide Test,TestModules,Test Fixtures.* Uses built in assert statement.* Command line paramets to view which tests are executed and in what order!
 
 ##### Tests
-Tests are python function with "test" at the begining of the function name.
+> Tests are python function with "test" at the begining of the function name.
 Tests does standard verification of values using assert method.
 
 ##### Test Discovery
 
-PyTest will automatically discover tests when we follow some standard conventions.
+> PyTest will automatically discover tests when we follow some standard conventions.
 Test functions should have tests in the beginning of the function name.
 Test Classes should have "Test" in the beginning of the class and name and SHOULD NOT have __init__ method.
 File name should start with test_example.py or end with example_test.py  
